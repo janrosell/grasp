@@ -1,5 +1,6 @@
 # 2.8.8 required to use PROTOBUF_IMPORT_DIRS
-cmake_minimum_required(VERSION 2.8.8 FATAL_ERROR)
+#cmake_minimum_required(VERSION 2.8.8 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 
 find_package(gazebo REQUIRED)
 include_directories(${GAZEBO_INCLUDE_DIRS})
